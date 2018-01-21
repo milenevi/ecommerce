@@ -27,7 +27,9 @@ class User extends Model {
 		{
 
 			$user = new User();
+			$user->setData($data);
 
+			$SESSION[User::SESSION] = $user->get
 
 
 		} else{

@@ -12,7 +12,8 @@ class Model
 	
 	public function __call($nome, $args)
 	{
-		
+		$method = substr($name, 0, 3);
+		$
 	}
 }
 
