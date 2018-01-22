@@ -38,7 +38,7 @@ class Model
 		public function getValues()
 	{
 		
-		return $this->$value;
+		return $this->$values;
 	
 	}
 
